@@ -43,7 +43,7 @@ jobs:
       - name: Show open-on-gh version
         run: mdbook-open-on-gh --version
       - name: Build markdown document
-        run: mdbook build markdown -d out home\20230529-Docs-as-code-demo\.github\workflows
+        run: mdbook build markdown -d out ome\20230529-Docs-as-code-demo\.github\workflows
       - name: Store HTML
         uses: actions/upload-artifact@v3
         with:
